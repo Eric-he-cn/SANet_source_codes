@@ -15,7 +15,6 @@ SANet consists of four concatenated modules trained end-to-end:
 
 Simulation results show that SANet achieves approximately 25% sum-rate improvement over the SOTA DNN-based baseline under identical settings, with ZF beamforming included as a classical baseline.
 
-------------------------------------------------------------------------
 
 ## 2. Repository Structure
 
@@ -29,7 +28,6 @@ Simulation results show that SANet achieves approximately 25% sum-rate improveme
 
 
 
-------------------------------------------------------------------------
 
 ## 3. Environment & Dependencies
 
@@ -49,7 +47,6 @@ pip install numpy scipy
 pip install tensorflow==1.14.0
 ```
 
-------------------------------------------------------------------------
 
 ## 4. How to Run
 
@@ -75,13 +72,11 @@ You can directly run:
 python BF_test.py
 ```
 
-------------------------------------------------------------------------
 
 ## 5. Outputs
 
 During training/testing, the scripts periodically save metrics to MATLAB `.mat` files via `scipy.io.savemat`.
 
-------------------------------------------------------------------------
 
 ## 6. Reproducibility Notes
 
